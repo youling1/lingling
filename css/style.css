@@ -1,0 +1,26 @@
+body{overflow-x: hidden;overflow-y: auto;}
+button:focus{
+    border:none;
+    outline: medium;
+}
+::-moz-focus-inner{
+    border:0px;
+}
+.wrap{width:1920px;height:2164px;background: url("../img/body1.jpg") no-repeat;position: relative;top:0;left:50%;margin-left: -960px; }
+button{position: absolute;top:1615px;width:82px;height: 105px;cursor: pointer;border:none;background: none;list-style-type:none;text-indent: -99999px;}
+.enroll{width:230px;height:75px;top:855px;left:845px;}
+.clickTest{left:865px;top:1345px;width:190px;height:60px;}
+.num0{left:595px;}
+.num1{left:701px;}
+.num2{left:808px;}
+.num3{left:915px;}
+.num4{left:1020px;}
+.num5{left:1127px;}
+.num6{left:1233px;}
+.title{ position: absolute;top:1775px;left:995px;width:77px;height:20px;text-indent: -99999px;}
+
+
+.wrap1{background: url("../img/body2.jpg") no-repeat;width:1920px;height:2360px;}
+.wrap2{background: url("../img/body3.jpg") no-repeat;width:1920px;height:2360px;}
+.wrap2 .title{top:1953px;}
+.wrap1 .title{top:1993px;}
