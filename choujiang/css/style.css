@@ -1,0 +1,105 @@
+.wrap{
+	width:1443px;
+	height:2115px;
+	background: url(../img/bg.jpg) no-repeat;
+	position: relative;
+	left:50%;
+	margin-left:-721px;
+}
+.zjmd{
+	width: 450px;
+	height: 203px;
+	position: absolute;
+	top:990px;
+	right:167px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.zjmd ul{
+	position: absolute;
+	top:0px;
+	height:183px;
+	padding: 10px 0 10px 20px;
+}
+.zjmd li{
+	line-height: 31px;
+	height:31px;
+	font-family: '微软雅黑';
+	font-size: 22px;
+	color:#f0f81d;
+	cursor: pointer;
+}
+.chakan{
+	position: absolute;
+	width:65px;
+	height:35px;
+	top:945px;
+	left:305px;
+}
+.goway a p{
+	color:#be300a;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: '微软雅黑';
+	line-height:40px;
+	height:40px;
+	width:162px;
+	text-align: center;
+	
+}
+.goway{
+	width:710px;
+	height:210px;
+	position: absolute;
+	top:1735px;
+	left:50%;
+	margin-left:-315px;
+	*margin-left:-300px;
+}
+.goway li{
+	float: left;
+}
+.goway li.dhczjf{
+	margin:0 110px;
+}
+.goway a{
+	text-decoration: none;
+}
+/*.dhhljf,.dhczjf,.dhtqlb{
+	position: absolute;
+	width:162px;
+	height:162px;
+	top: 1735px;
+	left:600px;
+}
+.dhczjf{
+	left:870px;
+}
+.dhtqlb{
+	left:1140px;
+}*/
+
+.ly-plate{
+	position: absolute;
+	top:990px;
+	left:153px;
+	width:633px;
+	height:633px;
+	}
+.rotate-bg{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:633px;
+	height:633px;
+	background: url(../img/dazhuanpan.png) no-repeat;
+	}
+.ly-plate div.lottery-star{
+		width:138px;
+		height:237px;
+		position:absolute;
+		top:208px;
+		left:208px;
+		outline:none;
+		cursor: pointer;
+	}
