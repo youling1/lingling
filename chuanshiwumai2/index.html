@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>传世雾霾2</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src='js/jquery-1.11.2.min.js'></script>
+    <script>
+        $(function(){
+            var timer1 = null;
+            var timer2 = null;
+            function autoplay1(){
+                $('.spring').animate({'top':0},800);
+                $('.spring').animate({'top':40},800);
+            }
+            function autoplay2(){
+                $('.cloud').animate({'left':0},1000);
+                $('.cloud').animate({'left':30},1000);
+            }
+            timer1=setInterval(autoplay1,1000);
+            timer2=setInterval(autoplay2,1000);
+        })
+    </script>
+</head>
+<body>
+    <div class="main">
+        <div class='sectionThree'>
+            <img src="img/spring.png" alt="" width='104' height='99' class='spring' id='spring' />
+            <!--<img src="img/slight.png" alt="" width='503' height='413' class='slight'/>-->
+            <img src="img/zoon.png" alt="" width='366' height='366' class='zoon'/>
+            <img src="img/clouds.png" alt="" width='608' height='187' class='cloud' id='cloud'/>
+            <button class='attack'>开始攻击</button>
+        </div>
+        <button class="enroll">我要报名</button>
+        <button class="test">接受晴天圣石考验</button>
+        <button class="reward">接受犒赏</button>
+    </div>
+</body>
+</html>

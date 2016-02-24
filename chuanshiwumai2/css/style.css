@@ -1,0 +1,12 @@
+body{overflow-x: hidden;overflow-y: scroll;}
+.main{width:1920px;height:3260px;background: url("../img/body.jpg") no-repeat;position: relative;top:0;left:50%;margin-left: -960px;}
+.main button{border:none;cursor: pointer;position: absolute;text-indent: -99999px;background: none;}
+.sectionThree{position: absolute;top:1615px;left:840px;}
+.sectionThree .spring{position: absolute;top:0x;left:0px;}
+.sectionThree .cloud{position: absolute;top:185px;left:0px;}
+.sectionThree .zoon{position: absolute;top:0;left:155px;}
+/*.sectionThree .slight{position: absolute;top:165px;left:10px;}*/
+.sectionThree .attack{width:216px;height:79px;position: absolute;top:305px;left:235px;background: url("../img/attack.png") no-repeat;}
+.reward{width:210px;height:70px;left:1120px;bottom:435px;}
+.enroll{width:297px;height:78px;top:455px;left:812px;}
+.test{width:250px;height: 70px;top:1047px;left:1080px;}
