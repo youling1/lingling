@@ -1,0 +1,22 @@
+body{overflow-x: hidden;}
+.mainW{width: 1920px;height:1600px;position: relative;top:0;left:50%;margin-left: -960px;background: url("../img/body.jpg") no-repeat;}
+.mainW .enroll{width:139px;height: 136px;position: absolute;top:22px;left:50%;margin-left: 128px;cursor: pointer;background: none;}
+.mainW .title{width:60px;height:15px;position: absolute;bottom:183px;left:50%;margin-left: 42px;text-indent: -99999px;}
+.mainW .animal{width:106px;height:126px;position: absolute;top:750px;left:50%;margin-left: -50px;z-index: 10;}
+.scratch{width:283px;height:92px;position: absolute;top:677px;left:50%;margin-left: -144px;cursor: pointer;*background-color: #666;
+    background-color: #666!important;*background-image:url('../img/guaguaka2.gif');background-image: url("../img/guaguaka2.gif")\0;}
+/*龙之谷专题样式*/
+.longzhigu{background: url("../img/longzhigu.jpg") no-repeat;}
+.longzhigu .lzgTitle{bottom:196px;}
+.longzhigu .lzgAnimal{top:740px;}
+
+/*免费活动页面样式*/
+.free{height:1280px;background: url("../img/freeBody.jpg") no-repeat;}
+
+/*新用户页面样式*/
+.newUser{height:1590px;background: url("../img/newBody.jpg") no-repeat;}
+.newUser .title{bottom:191px;}
+
+/*only（500||1000）页面样式*/
+.only{height:1558px;background: url("../img/onlyBody.jpg") no-repeat;}
+.only .title{bottom:192px;}
