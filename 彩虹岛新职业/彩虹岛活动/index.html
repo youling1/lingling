@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>彩虹岛新职业</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src='js/jquery-1.11.2.min.js'></script>
+	<script>
+		$(function(){
+			$('.NewEmployment').click(function(){
+				$('.shade').css('display','block');
+				$('.NewEmploymentpOPUP').css('display','block');
+			})
+			$('.oldPlayer').click(function(){
+				$('.shade').css('display','block');
+				$('.oldPlayerPopup').css('display','block');
+			})
+			$('.closed').click(function(){
+				$('.shade').css('display','none');
+				$('.oldPlayerPopup').css('display','none');
+				$('.NewEmploymentpOPUP').css('display','none');
+			})
+		})
+	</script>
+</head>
+<body>
+<div class="main">
+	<div class="mainCHD">
+		<div class="content">
+			<div class="websitA">
+				<a href="http://chd.sdo.com/web6/home/index.asp" class="websit">官网</a>
+				<a href="http://chd.games.sdo.com/index" class="raiders">攻略站</a>
+				<button class="NewEmployment">新职业介绍</button>
+				<button class="oldPlayer">老玩家回归福利</button>
+			</div>
+		</div>
+		<footer id="footer">
+			 <!--SDG common foot -->
+			<script type="text/javascript">var CopyRightcss = 'http://static.sdg-china.com/sdg/pic/SDGCOPYRIGHT/each/white.css';</script>
+			<script src="http://static.sdg-china.com/copyright/js/hCopyRight.js" charset="gb2312"></script>
+			<link rel="stylesheet" type="text/css" href="http://static.sdg-china.com/sdg/pic/SDGCOPYRIGHT/each/white.css">
+		</footer>
+
+	</div>
+	<!-- 弹窗样式 -->
+	<div class="shade"></div>
+	<!-- 老玩家回归福利 -->
+	<div class="oldPlayerPopup">
+		<a class="backBtn" href='http://act2.chd.sdo.com/project/150630laowanjia/home.asp'>我要回归</a>
+		<sapn class="closed">关闭</sapn>
+	</div>
+	<!-- 新职业介绍 -->
+	<div class="NewEmploymentpOPUP">
+		<sapn class="closed">关闭</sapn>
+		<div class="popupContent">
+			<div class='object'>
+				<object data="http://player.ku6.com/refer/oVjmXIx-HOK1lE5JvOAqFQ../v.swf&amp;adss=0&amp;bv=0&amp;pv=0&amp;auto=0&amp;fu=1" id="video_player" type="application/x-shockwave-flash" height="370" width="550">
+					<!--[if lt IE 9.0]>
+	                  <param name="movie" value="http://player.ku6.com/refer/oVjmXIx-HOK1lE5JvOAqFQ../v.swf&adss=0&bv=0&pv=0&auto=0&fu=1">
+	                <![endif]-->
+	                <param name="quality" value="high">
+	                <param name="allowScriptAccess" value="always">
+	                <param name="allowFullScreen" value="true">
+	                <param name="wMode" value="opaque">
+	                <param name="swLiveConnect" value="true">
+                </object>
+                 <!-- 新职业介绍内容部分                        -->
+                <div class="popupCont"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+           
+        
+</body>
+</html>

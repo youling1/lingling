@@ -1,0 +1,26 @@
+body{overflow-x: hidden;}
+.main{width:1920px;height: 1132px;position: relative;top:0;left:50%;margin-left: -960px;}
+.main button{background: none;border:none;text-indent: -99999px;}
+.mainCHD{position: absolute;z-index: 1;}
+.content{width: 1920px;height:1000px;background: url('../img/body.jpg') no-repeat;}
+.websitA{width:150px;height:38px;position: absolute;top:58px;left:50%;margin-left:321px;}
+.websitA a{float: left;height:38px;text-indent: -99999px;}
+.websitA a.websit{width:45px;margin:0 3px 0 15px;}
+.websitA a.raiders{width:60px;margin:0 3px 0 10px;}
+.websitA button{width:300px;height:75px;position: absolute;top:637px;left:50%;margin-left: -550px;
+}
+.websitA .oldPlayer{top:750px;}
+/* екежбљЪН */
+.shade{width:1920px;height:1132px;position: absolute;top:0;left:50%;margin-left: -960px;background: #000;opacity: 0.6;
+filter: alpha(opacity=60);z-index: 2;display: none;}
+.oldPlayerPopup{width:720px;height:716px;background: url(../img/welfare.png) no-repeat;position: absolute;top:50%;left:50%;
+margin-left: -360px;margin-top: -358px;z-index: 3;display: none;}
+.oldPlayerPopup .backBtn{width:227px;height: 62px;position: absolute;top:85px;left:248px;background: url(../img/backBtn.png) no-repeat;
+text-indent: -9999px;}
+.closed{width:71px;height:44px;background: url(../img/close.png) no-repeat;position:absolute;top: 0;right:0;
+cursor: pointer;text-indent: -9999px;}
+.NewEmploymentpOPUP{width:720px;height:716px;background: url(../img/borderBg.png) no-repeat;position: absolute;top:50%;left:50%;
+margin-left: -360px;margin-top: -358px;z-index: 3;display: none;}
+.popupContent{width:713px;height:698px;overflow-y: auto;margin-top: 10px;overflow-x:hidden; }
+.object{width:550px;height:370px;margin:40px 85px;}
+.popupCont{background: url(../img/NewEmployment.png) no-repeat;width:700px;height: 1341px;margin:20px 0 20px -77px;}
